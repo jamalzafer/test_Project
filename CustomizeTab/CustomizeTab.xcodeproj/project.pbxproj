@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B181FB5B15C7E66400F2E41B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B181FB5A15C7E66400F2E41B /* UIKit.framework */; };
+		B181FB5D15C7E66400F2E41B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B181FB5C15C7E66400F2E41B /* Foundation.framework */; };
+		B181FB5F15C7E66400F2E41B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B181FB5E15C7E66400F2E41B /* CoreGraphics.framework */; };
+		B181FB6515C7E66400F2E41B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B181FB6315C7E66400F2E41B /* InfoPlist.strings */; };
+		B181FB6715C7E66400F2E41B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B181FB6615C7E66400F2E41B /* main.m */; };
+		B181FB6B15C7E66400F2E41B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B181FB6A15C7E66400F2E41B /* AppDelegate.m */; };
+		B181FB6E15C7E66400F2E41B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B181FB6D15C7E66400F2E41B /* ViewController.m */; };
+		B181FB7115C7E66400F2E41B /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B181FB6F15C7E66400F2E41B /* ViewController_iPhone.xib */; };
+		B181FB7415C7E66400F2E41B /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B181FB7215C7E66400F2E41B /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B181FB5615C7E66400F2E41B /* CustomizeTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomizeTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B181FB5A15C7E66400F2E41B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B181FB5C15C7E66400F2E41B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B181FB5E15C7E66400F2E41B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B181FB6215C7E66400F2E41B /* CustomizeTab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomizeTab-Info.plist"; sourceTree = "<group>"; };
+		B181FB6415C7E66400F2E41B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B181FB6615C7E66400F2E41B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B181FB6815C7E66400F2E41B /* CustomizeTab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomizeTab-Prefix.pch"; sourceTree = "<group>"; };
+		B181FB6915C7E66400F2E41B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B181FB6A15C7E66400F2E41B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B181FB6C15C7E66400F2E41B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B181FB6D15C7E66400F2E41B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B181FB7015C7E66400F2E41B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		B181FB7315C7E66400F2E41B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B181FB5315C7E66400F2E41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B181FB5B15C7E66400F2E41B /* UIKit.framework in Frameworks */,
+				B181FB5D15C7E66400F2E41B /* Foundation.framework in Frameworks */,
+				B181FB5F15C7E66400F2E41B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B181FB4B15C7E66300F2E41B = {
+			isa = PBXGroup;
+			children = (
+				B181FB6015C7E66400F2E41B /* CustomizeTab */,
+				B181FB5915C7E66400F2E41B /* Frameworks */,
+				B181FB5715C7E66400F2E41B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B181FB5715C7E66400F2E41B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B181FB5615C7E66400F2E41B /* CustomizeTab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B181FB5915C7E66400F2E41B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B181FB5A15C7E66400F2E41B /* UIKit.framework */,
+				B181FB5C15C7E66400F2E41B /* Foundation.framework */,
+				B181FB5E15C7E66400F2E41B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B181FB6015C7E66400F2E41B /* CustomizeTab */ = {
+			isa = PBXGroup;
+			children = (
+				B181FB6915C7E66400F2E41B /* AppDelegate.h */,
+				B181FB6A15C7E66400F2E41B /* AppDelegate.m */,
+				B181FB6C15C7E66400F2E41B /* ViewController.h */,
+				B181FB6D15C7E66400F2E41B /* ViewController.m */,
+				B181FB6F15C7E66400F2E41B /* ViewController_iPhone.xib */,
+				B181FB7215C7E66400F2E41B /* ViewController_iPad.xib */,
+				B181FB6115C7E66400F2E41B /* Supporting Files */,
+			);
+			path = CustomizeTab;
+			sourceTree = "<group>";
+		};
+		B181FB6115C7E66400F2E41B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B181FB6215C7E66400F2E41B /* CustomizeTab-Info.plist */,
+				B181FB6315C7E66400F2E41B /* InfoPlist.strings */,
+				B181FB6615C7E66400F2E41B /* main.m */,
+				B181FB6815C7E66400F2E41B /* CustomizeTab-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B181FB5515C7E66400F2E41B /* CustomizeTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B181FB7715C7E66400F2E41B /* Build configuration list for PBXNativeTarget "CustomizeTab" */;
+			buildPhases = (
+				B181FB5215C7E66400F2E41B /* Sources */,
+				B181FB5315C7E66400F2E41B /* Frameworks */,
+				B181FB5415C7E66400F2E41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomizeTab;
+			productName = CustomizeTab;
+			productReference = B181FB5615C7E66400F2E41B /* CustomizeTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B181FB4D15C7E66300F2E41B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B181FB5015C7E66300F2E41B /* Build configuration list for PBXProject "CustomizeTab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B181FB4B15C7E66300F2E41B;
+			productRefGroup = B181FB5715C7E66400F2E41B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B181FB5515C7E66400F2E41B /* CustomizeTab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B181FB5415C7E66400F2E41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B181FB6515C7E66400F2E41B /* InfoPlist.strings in Resources */,
+				B181FB7115C7E66400F2E41B /* ViewController_iPhone.xib in Resources */,
+				B181FB7415C7E66400F2E41B /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B181FB5215C7E66400F2E41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B181FB6715C7E66400F2E41B /* main.m in Sources */,
+				B181FB6B15C7E66400F2E41B /* AppDelegate.m in Sources */,
+				B181FB6E15C7E66400F2E41B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B181FB6315C7E66400F2E41B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B181FB6415C7E66400F2E41B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B181FB6F15C7E66400F2E41B /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B181FB7015C7E66400F2E41B /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B181FB7215C7E66400F2E41B /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B181FB7315C7E66400F2E41B /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B181FB7515C7E66400F2E41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B181FB7615C7E66400F2E41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B181FB7815C7E66400F2E41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomizeTab/CustomizeTab-Prefix.pch";
+				INFOPLIST_FILE = "CustomizeTab/CustomizeTab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B181FB7915C7E66400F2E41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomizeTab/CustomizeTab-Prefix.pch";
+				INFOPLIST_FILE = "CustomizeTab/CustomizeTab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B181FB5015C7E66300F2E41B /* Build configuration list for PBXProject "CustomizeTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B181FB7515C7E66400F2E41B /* Debug */,
+				B181FB7615C7E66400F2E41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B181FB7715C7E66400F2E41B /* Build configuration list for PBXNativeTarget "CustomizeTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B181FB7815C7E66400F2E41B /* Debug */,
+				B181FB7915C7E66400F2E41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B181FB4D15C7E66300F2E41B /* Project object */;
+}
